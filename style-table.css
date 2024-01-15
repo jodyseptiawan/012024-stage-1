@@ -1,0 +1,30 @@
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td,
+.customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.block-el {
+  background-color: red;
+  display: inline;
+}
+
+.inline-el {
+  background-color: blue;
+  display: none;
+  display: block;
+}
