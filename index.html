@@ -1,22 +1,26 @@
 <html>
   <head>
-    <title>Day 8 | Event Handling & HTML Manipulation</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Day 9 | Event Example & API</title>
   </head>
   <body>
-    <!-- <p id="paragraf-1">Lorem ipsum dolor sit amet.</p> -->
-    <!-- <img id="image-1" /> -->
-
-    <table id="customers">
-      <thead>
-        <tr>
-          <th>No</th>
-          <th>Name</th>
-          <th>Email</th>
-        </tr>
-      </thead>
-      <tbody id="table-body"></tbody>
-    </table>
+    <form>
+      <div>
+        <input type="text" placeholder="Name" id="input-name" />
+      </div>
+      <div style="margin-top: 10px">
+        <textarea placeholder="Notes" id="input-notes"></textarea>
+      </div>
+      <div style="margin-top: 10px">
+        <select id="input-status">
+          <option value="Todo">Todo</option>
+          <option value="Doing">Doing</option>
+          <option value="Done">Done</option>
+        </select>
+      </div>
+      <div style="margin-top: 10px">
+        <button type="button" onclick="handleSubmit()">Submit</button>
+      </div>
+    </form>
   </body>
-  <script src="html-manipulation.js"></script>
+  <script src="api-create.js"></script>
 </html>

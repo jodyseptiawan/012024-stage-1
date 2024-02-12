@@ -1,18 +1,22 @@
 <html>
   <head>
-    <title>Day 8 | Event Handling & HTML Manipulation</title>
-    <script src="event-handling.js"></script>
+    <title>Day 9 | Event Example & API</title>
   </head>
   <body>
-    <button onclick="showAlert()">tombol onClick</button>
-    <button ondblclick="showAlertDoubleClick()">tombol doubleClick</button>
-    <button onmouseenter="showAlertMouseEnter()">tombol mouse enter</button>
-    <button ondrag="showAlertDrag()" draggable="true">
-      tombol mouse enter
-    </button>
-
-    <div onclick="showAlert()" style="margin-top: 5px; background-color: red">
-      Box
-    </div>
+    <form>
+      <div>
+        <input type="text" placeholder="Full Name" id="input-name" />
+      </div>
+      <div style="margin-top: 10px">
+        <input type="text" placeholder="Email" id="input-email" />
+      </div>
+      <div style="margin-top: 10px">
+        <textarea placeholder="Message" id="input-message"></textarea>
+      </div>
+      <div style="margin-top: 10px">
+        <button type="button" onclick="handleSubmit()">Submit</button>
+      </div>
+    </form>
   </body>
+  <script src="event.js"></script>
 </html>
